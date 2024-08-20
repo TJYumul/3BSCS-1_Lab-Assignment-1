@@ -1,0 +1,22 @@
+public class Cat implements Pet {
+    private Integer noOfLives;
+
+    public Integer getNoOfLives() {
+        return noOfLives;
+    }
+
+    public void setNoOfLives(Integer noOfLives) {
+        this.noOfLives = noOfLives;
+    }
+
+    @Override
+    public String makeSound(String sound) {
+        // For simplicity, just return the sound passed as parameter
+        return sound;
+    }
+
+    @Override
+    public String play() {
+        return "Catching/pursuing moving objects!";
+    }
+}
