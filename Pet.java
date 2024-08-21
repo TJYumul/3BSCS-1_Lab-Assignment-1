@@ -1,5 +1,5 @@
 public interface Pet {
 
-public String makeSound(String sound);
+public String makeSound();
 public String play();
 }

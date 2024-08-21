@@ -1,16 +1,16 @@
 public class Dog implements Pet {
- private String breed;
- 
- public String getBreed() {
-    return breed;
-}
+    private String breed;
 
-public void setBreed(String breed) {
-    this.breed = breed;
-}
+    public String getBreed() {
+        return breed;
+    }
 
-@Override
-    public String makeSound(String sound) {
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    @Override
+    public String makeSound() {
         return "Aw, aw!";
     }
 

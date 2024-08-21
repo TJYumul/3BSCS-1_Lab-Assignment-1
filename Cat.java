@@ -10,9 +10,8 @@ public class Cat implements Pet {
     }
 
     @Override
-    public String makeSound(String sound) {
-        // For simplicity, just return the sound passed as parameter
-        return sound;
+    public String makeSound() {
+        return "Meow, meow!";
     }
 
     @Override
